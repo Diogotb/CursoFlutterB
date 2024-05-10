@@ -15,11 +15,11 @@ class HomeScreen extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () => Navigator.pushNamed(context, "/list"),
-              child: Text("Lista de Filmes")),
-            SizedBox(height: 20,),
+              child: const Text("Lista de Filmes")),
+            const SizedBox(height: 20,),
             ElevatedButton(
               onPressed: () => Navigator.pushNamed(context, "/cadastro"), 
-              child: Text("Cadastro de Filmes")),
+              child: const Text("Cadastro de Filmes")),
 
         ],),
       ),
