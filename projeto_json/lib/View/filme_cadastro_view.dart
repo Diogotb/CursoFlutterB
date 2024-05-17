@@ -30,6 +30,7 @@ class _FilmeCadastroScreenState extends State<FilmeCadastroScreen> {
 
   @override
   void initState() {
+    super.initState();
     _controller.loadFilmesfromJson();
   }
 
